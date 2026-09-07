@@ -59,23 +59,21 @@ H_j \approx -\frac{1}{M}
 \sum_{m=1}^{M}
 \ln \hat{p}_j\left(\delta_{NP}^{(m)}\right).
 $$
-
 **The entropy floor (Proposition 1).** Under Normal-Normal conjugate updating
-with independent posteriors, the posterior variance of $\delta_{NP}$ is
-additive, so its entropy is bounded below by a floor fixed by the probability
-sample:
+with independent posteriors, the posterior variance of $\delta_{NP}$ is additive,
+so its entropy is bounded below by a floor fixed by the probability sample:
 
 $$
-\operatorname{Var}(\delta_{NP})
+\mathrm{Var}(\delta_{NP})
 =
 \frac{\sigma_{NP}^2}{g_j}
 +
 \frac{\sigma^2}{n_P}
 \geq
-\frac{\sigma^2}{n_P},
+\frac{\sigma^2}{n_P}.
 $$
 
-and therefore
+Therefore,
 
 $$
 H_j
@@ -83,7 +81,9 @@ H_j
 H_{\mathrm{floor}}
 =
 \frac{1}{2}
-\ln\left(\frac{2\pi e\,\sigma^2}{n_P}\right).
+\ln\left(
+\frac{2\pi e\,\sigma^2}{n_P}
+\right).
 $$
 
 Adding more non-probability units cannot lower this floor; only a larger
@@ -96,7 +96,7 @@ variance $\sigma^2/n_P$. Under a complex probability-sample design
 $\hat{\mu}_P$ is inflated by the design effect $\mathrm{DEFF} \geq 1$:
 
 $$
-\operatorname{Var}(\hat{\mu}_P)
+\mathrm{Var}(\hat{\mu}_P)
 \approx
 \frac{\sigma^2 \mathrm{DEFF}}{n_P}.
 $$
@@ -130,7 +130,9 @@ $$
 the ERI stopping point is
 
 $$
-k^* = g_{j^*},
+k^*
+=
+g_{j^*},
 $$
 
 where
@@ -167,7 +169,9 @@ k_{\mathrm{bal}}
 \left\lceil
 \frac{
 n_P
-\left(\hat{\sigma}_{NP}/\hat{\sigma}_P\right)^2
+\left(
+\hat{\sigma}_{NP}/\hat{\sigma}_P
+\right)^2
 }{
 \mathrm{DEFF}
 }
@@ -176,7 +180,6 @@ $$
 
 If $N_{NP} \ll k_{\mathrm{bal}}$, the pool is likely insufficient and ERI
 should not proceed.
-
 ---
 
 ## Computational Approach
