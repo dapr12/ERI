@@ -572,9 +572,11 @@ evidence that the panel materially falls short.
 
 ## Interactive Dashboard
 
-An interactive Shiny application (`app.R`) reproduces the ERI workflow end to
-end.
+An interactive Shiny application is available at:
 
+[ERI - Interactive Dashboard](https://dapr12.shinyapps.io/ERI-Toolkit/)
+
+The dashboard reproduces the ERI workflow end to end.
 ### User Guide
 
 Provides:
