@@ -62,7 +62,7 @@ with independent posteriors, the posterior variance of $\delta_{NP}$ is additive
 so its entropy is bounded below by a floor fixed by the probability sample:
 
 $$
-\operatorname{Var}(\delta_{NP}) = \frac{\sigma^2_{NP}}{g_j} + \frac{\sigma^2}{n_P}
+\textit{Var}(\delta_{NP}) = \frac{\sigma^2_{NP}}{g_j} + \frac{\sigma^2}{n_P}
 \;\ge\; \frac{\sigma^2}{n_P},
 \qquad
 H_j \;\ge\; H_{\text{floor}} = \tfrac{1}{2}\ln\!\big(2\pi e\,\sigma^2/n_P\big).
